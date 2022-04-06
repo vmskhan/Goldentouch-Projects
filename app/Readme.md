@@ -21,7 +21,7 @@ also create a set of questions the participant has to answer during the intervie
      `update user set claim='admin' where uid=[the_required_uid];`
 4. After creating two users, create a interview and add questions. Before starting the zoom meeting run the node server by using the command `>npm run start` in the cmd 
    in the directory `app\node server for zoom signature\meetingsdk-sample-signature-node.js-master` for retrieving signature for zoom.
-5. Then create a meet as admin in one browser. Login as the participant from the other browser and start the interview to jooin the meet.
+5. Then create a meet as admin in one browser. Login as the participant from the other browser and start the interview to join the meet.
 
 ##  Possible Improvements
 1. Add edit option for questions
