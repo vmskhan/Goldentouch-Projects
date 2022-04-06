@@ -1,0 +1,101 @@
+body{
+    background-color: #FDFDFD;
+    min-height: 100vh;
+}
+  
+a{
+    text-decoration: none;
+}
+
+.decor-none{
+    text-decoration: none;
+    color:#2e4057ff;
+}
+
+.auth-bg-left-img{
+    background-image: url('/img/green.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    /* height: 100vh; 
+    height: 100px;
+    width: 100px;*/
+  }
+.auth-bg-right-img{
+    background-image: url('/img/interview1.png');
+    background-position: center;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-color:darkseagreen;
+    /* height: 100vh; 
+    height: 100px;
+    width: 100px;*/
+  }
+
+  .nav-btn{
+      position: fixed;
+      top: 40%;
+      right: 0;
+      z-index: 100;
+  }
+
+  .inner-nav-btn{
+    position: relative;
+    bottom: 55%;
+    left: 0;
+    z-index: 100;
+    width: 25px;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.text-l{
+    color: #f6d8aeff;;
+}
+
+.text-d{
+   color: #2e4057ff;
+}
+
+.text-b{
+    color: #083d77ff;
+}
+
+.text-r{
+    color: #da4167ff
+}
+
+.text-y{
+    color: #f4d35eff
+}
+
+.bg-l{
+    background-color: #f6d8aeff;;
+}
+
+.bg-d{
+   background-color: #2e4057ff;
+}
+
+.bg-b{
+    background-color: #083d77ff;
+}
+
+.bg-r{
+    background-color: #da4167ff
+}
+
+.bg-y{
+    background-color: #f4d35eff
+}
+
+.text-img{
+    height: inherit;
+    width: inherit;
+    background-image: url("/img/test.jpg");
+    background-position: center;
+    background-size: cover;
+    /* background: radial-gradient(circle, black, white); */
+}

@@ -1,0 +1,15 @@
+create database Onview;
+use Onview;
+create table test(tid int,amount int,date varchar(255),duration float,needPayment bit(1),start_time varchar(255),state varchar(255),tname varchar(255),totalMarks int,pid int,uid int references user(uid), primary key(tid));
+create table question(qid integer,questionText varchar(500),questionImage LongBlob,answerText varchar(500),answerImage longblob,mark integer,idx integer,questionFormat varchar(100),tid integer references test(tid),primary key(qid));
+create table answer(oid integer,answerText varchar(500),answerImage LongBlob,qid integer references question(qid),primary key(oid));
+create table participation(tid int,uid int,last_attempted int,paymentDone bit(1),score int,totalQn int,primary key(tid,uid));
+create table submission(qid int ,tid int,uid int,choice varchar(500),mark int,rightanswer varchar(500),state varchar(500),primary key(qid,tid,uid));
+create table result(tid int,uid int,total int, primary key(tid,uid));
+create table hibernate_sequence(next_val bigint);
+create table user(uid int,claim varchar(255),emailVerified bit(1),emailid varchar(255),last_attempted int,name varchar(255),password varchar(255),primary key(uid));
+
+create table zoom(id int,sdkKey varchar(1000),signature varchar(1000),meetingNumber varchar(30),password varchar(50),userName varchar(200));
+create table temp_store(uid int,tempval int);
+
+insert into hibernate_sequence values(1);
