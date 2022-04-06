@@ -8,7 +8,7 @@ also create a set of questions the participant has to answer during the intervie
 
 ## Steps for Installing the Project
 1. Download the zip file of this repository or clone it.
-2. Import the project/use the repository cloned in spring
+2. Import the project/use the repository cloned in spring boot
 3. Run the sql commands inside the file to setup database [sql_commands](https://github.com/vmskhan/Goldentouch-Projects/blob/456aab2f00f82b40e0e01c3e2d07e19051b08a2e/app/db_sql/onview%20mysql%20commands.txt) 
 4. Create two Zoom API's one for OAUTH and the other for SDK, then place client-id,client-secret from OAUTH app and sdk-key from SDK app into application.properties file.
 5. Also place the sdk-key,sdk-secret in the `.env` file inside the folder `app\node server for zoom signature\meetingsdk-sample-signature-node.js-master` (if it doesn't exist please create a file named .env)
