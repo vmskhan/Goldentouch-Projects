@@ -1,0 +1,4 @@
+create database product;
+use product;
+create table cart(pid int,qty int);
+create table products(pid int,pname varchar(20),pdes varchar(20),pqty int,price int,pimg longblob);
