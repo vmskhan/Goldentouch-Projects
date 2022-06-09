@@ -4,7 +4,7 @@ Onview is Online Interview Platform where an interviewer and interviewee can joi
 also create a set of questions the participant has to answer during the interview.
 
 #### Video of Project Working [Onview](https://drive.google.com/file/d/1IwrRuCv_YLSSzlZg3hI6wGVLtFrHTiU9/view?usp=sharing) 
-#### Video for Setting up Zoom API [click here](https://drive.google.com/file/d/1D4sMEcczgpl3G3XRciqt3Rk55GJuX7_9/view?usp=sharing)
+#### Video for Setting up the Project [click here](https://drive.google.com/file/d/1tXUnG69FZWYqxjHb0hr0pkvlzQF96iDw/view?usp=sharing)
 
 ## Steps for Installing the Project
 1. Download the zip file of this repository or clone it.
